@@ -1,0 +1,10 @@
+Task Chosen: ex4-label-product.c
+
+In this task I used defensive strategy to make sure that the code was readable and easy to understand, as it is important for any other person to be able to read the code and understand it easily.
+Another strategy I tried to implement was the time complexity of the code, I started the code with 3 for loops, one to make a linked list, one to get the average sales and one to print.
+So then I decided to keep track of the sales as I went through the linked list as I was adding the elements to each part of the list, so I was adding it to a total, later to be devided by the number of Products.
+I also what 5 main if statements with each having another if statement, so that made a total of 10 if statements, even though it doesn't really make a difference in the time complexity of the code I decided to reduce it to five from 10 and swap it instead to swich cases.
+This not only made the code a fraction faster but also the code is way more readable.
+
+In my opinion my approach to this question was very efficient and very compact, using a LinkedList with a struct with a pointer to the next element of the list, using dynamic memory allocation and two for loops.
+Keeping in mind that obviously there is a lot more of ways to implement this and i am sure that there is some kind of way that will turn out to be more efficient and more compact, but in my opion is already reasonably fast and compact.
